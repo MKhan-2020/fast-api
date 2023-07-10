@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fast-api"
+version = "0.1.0"
+description = ""
+authors = ["Md Moniruzzaman Khan <70683937+MKhan-2020@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "fast_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.22.0"
+fastapi = "^0.100.0"
+pydantic = "^2.0.2"
+sqlalchemy = "^2.0.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
